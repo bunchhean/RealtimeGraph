@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D89F4E041C04A4E8007C0EC7 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F4E031C04A4E8007C0EC7 /* Memory.swift */; settings = {ASSET_TAGS = (); }; };
+		D89F4E061C04B26E007C0EC7 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F4E051C04B26E007C0EC7 /* LineChart.swift */; settings = {ASSET_TAGS = (); }; };
 		D8D7E43D1C049C7A0086CE85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D7E43C1C049C7A0086CE85 /* AppDelegate.swift */; };
 		D8D7E43F1C049C7A0086CE85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D7E43E1C049C7A0086CE85 /* ViewController.swift */; };
 		D8D7E4421C049C7A0086CE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D7E4401C049C7A0086CE85 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D89F4E031C04A4E8007C0EC7 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		D89F4E051C04B26E007C0EC7 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 		D8D7E4391C049C790086CE85 /* RealtimeGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D7E43C1C049C7A0086CE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D7E43E1C049C7A0086CE85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +101,14 @@
 		D8D7E43B1C049C790086CE85 /* RealtimeGraph */ = {
 			isa = PBXGroup;
 			children = (
+				D89F4E051C04B26E007C0EC7 /* LineChart.swift */,
 				D8D7E43C1C049C7A0086CE85 /* AppDelegate.swift */,
 				D8D7E43E1C049C7A0086CE85 /* ViewController.swift */,
 				D8D7E4401C049C7A0086CE85 /* Main.storyboard */,
 				D8D7E4431C049C7A0086CE85 /* Assets.xcassets */,
 				D8D7E4451C049C7A0086CE85 /* LaunchScreen.storyboard */,
 				D8D7E4481C049C7A0086CE85 /* Info.plist */,
+				D89F4E031C04A4E8007C0EC7 /* Memory.swift */,
 			);
 			path = RealtimeGraph;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89F4E061C04B26E007C0EC7 /* LineChart.swift in Sources */,
+				D89F4E041C04A4E8007C0EC7 /* Memory.swift in Sources */,
 				D8D7E43F1C049C7A0086CE85 /* ViewController.swift in Sources */,
 				D8D7E43D1C049C7A0086CE85 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +492,7 @@
 				D8D7E4631C049C7A0086CE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D7E4641C049C7A0086CE85 /* Build configuration list for PBXNativeTarget "RealtimeGraphTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				D8D7E4661C049C7A0086CE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8D7E4671C049C7A0086CE85 /* Build configuration list for PBXNativeTarget "RealtimeGraphUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				D8D7E4691C049C7A0086CE85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
